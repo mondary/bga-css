@@ -1,6 +1,4 @@
-🇬🇧 ENGLISH VERSION
-
-# Adding a custom CSS file to Board Game Arena
+# 🇬🇧 ENGLISH VERSION  //  Adding a custom CSS file to Board Game Arena
 
 The BGA site is pretty old school and sometimes just unclear! This is an attempt to improve it a little using only CSS.
 
@@ -21,8 +19,8 @@ After that is complete, the site should look largely similar, but have a slightl
 Enjoy!
 
 
-🇫🇷 FRENCH VERSION
-# Ajout d'un fichier CSS personnalisé à Board Game Arena
+
+# 🇫🇷 FRENCH VERSION // Ajout d'un fichier CSS personnalisé à Board Game Arena
 
 Le site de BGA est assez vieux jeu et parfois pas très clair ! C'est une tentative pour l'améliorer un peu en utilisant seulement CSS.
 
