@@ -1,3 +1,5 @@
+🇬🇧 ENGLISH VERSION
+
 # Adding a custom CSS file to Board Game Arena
 
 The BGA site is pretty old school and sometimes just unclear! This is an attempt to improve it a little using only CSS.
@@ -17,3 +19,25 @@ The BGA site is pretty old school and sometimes just unclear! This is an attempt
 After that is complete, the site should look largely similar, but have a slightly cleaner style and display messages and prompts in a manner that they are easier to follow.
 
 Enjoy!
+
+
+🇫🇷 FRENCH VERSION
+# Ajout d'un fichier CSS personnalisé à Board Game Arena
+
+Le site de BGA est assez vieux jeu et parfois pas très clair ! C'est une tentative pour l'améliorer un peu en utilisant seulement CSS.
+
+**Veuillez lire TOUTES les instructions ci-dessous, sinon vous aurez l'impression que le site est cassé !**.
+
+1. [Connectez-vous à BGA] (https://en.boardgamearena.com/account?redirect=/preferences?section=advanced) en utilisant ce lien.
+	1. Si vous n'avez pas été amené directement sur une page avec une zone de texte...
+	1. Cliquez sur l'icône en haut à droite -> "Préférences" -> onglet "Avancé".
+1. Dans une autre fenêtre, ouvrez et copiez [ce code CSS personnalisé] (https://raw.githubusercontent.com/paul-norman/bga-css/master/bga-light.css).
+1. De retour dans la première fenêtre, collez l'intégralité du contenu de ce fichier dans la zone de texte et appuyez sur "Enregistrer".
+1. Ce serait bien si c'était tout ce que vous aviez à faire, mais BGA a un bug avec ce système. Vous devez suivre ce chemin pour activer réellement le code :
+	1. Faites défiler l'écran vers le bas et dépassez le code CSS qui se trouve maintenant en haut de l'écran.
+	1. Cliquez sur l'un des éléments du menu d'en-tête **DU CÔTÉ GAUCHE** *(par exemple, Jouer maintenant, Nouvelles, Jeux, etc.) *.
+	1. Rafraîchissez cette page manuellement **Ne sautez pas cette étape**.
+
+Une fois cette opération terminée, le site devrait avoir un aspect très similaire, avec un style un peu plus épuré et un affichage des messages et des invites de manière à ce qu'ils soient plus faciles à suivre.
+
+Bonne lecture !
