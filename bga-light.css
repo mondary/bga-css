@@ -1,5 +1,5 @@
 /*
-TODO: 
+TODO:
 Grey / white buttons on blue bar in play area
 */
 /******************************************
@@ -11,7 +11,7 @@ GENERAL STYLES
 }
 /* But the actual game code probably doesn't want messing with
    It has events which require pixel precision and was likely designed to run using the defaults */
-.game_interface *, 
+.game_interface *,
 #game_play_area_wrap * {
 	box-sizing: content-box;
 }
@@ -88,8 +88,8 @@ a.toprightmenu_item:last-child {
 .mobile-menu-icon-button i {
 	font-size: 28px;
 }
-.mobile_version #toggleSound, 
-.mobile_version #mypreferences, 
+.mobile_version #toggleSound,
+.mobile_version #mypreferences,
 .mobile_version #mygameinprogress {
     display: inline;
 }
@@ -194,28 +194,28 @@ a.toprightmenu_item:last-child {
 .pagesection__content {
 	background: #fff;
 }
-.pubbanner, 
+.pubbanner,
 #footercol_follow {
 	display: none;
 }
 /* Input styles */
-select, 
-textarea, 
-input[type=text], 
-input[type=color], 
-input[type=date], 
-input[type=time], 
-input[type=datetime-local], 
-input[type=month], 
-input[type=week], 
-input[type=number], 
-input[type=range], 
-input[type=url], 
-input[type=search], 
-input[type=email], 
-input[type=tel], 
+select,
+textarea,
+input[type=text],
+input[type=color],
+input[type=date],
+input[type=time],
+input[type=datetime-local],
+input[type=month],
+input[type=week],
+input[type=number],
+input[type=range],
+input[type=url],
+input[type=search],
+input[type=email],
+input[type=tel],
 input[type=password],
-.dijitInputField, 
+.dijitInputField,
 #gamelist_gameselect input {
 	border: 1px solid #dbdbdb !important;
 	margin: 0 !important;
@@ -225,21 +225,21 @@ input[type=password],
 	width: 100%;
 	text-align: left !important;
 }
-textarea:focus, 
+textarea:focus,
 select:focus,
-input[type=text]:focus, 
-input[type=color]:focus, 
-input[type=date]:focus, 
-input[type=time]:focus, 
-input[type=datetime-local]:focus, 
-input[type=month]:focus, 
-input[type=week]:focus, 
-input[type=number]:focus, 
-input[type=range]:focus, 
-input[type=url]:focus, 
-input[type=search]:focus, 
-input[type=email]:focus, 
-input[type=tel]:focus, 
+input[type=text]:focus,
+input[type=color]:focus,
+input[type=date]:focus,
+input[type=time]:focus,
+input[type=datetime-local]:focus,
+input[type=month]:focus,
+input[type=week]:focus,
+input[type=number]:focus,
+input[type=range]:focus,
+input[type=url]:focus,
+input[type=search]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
 input[type=password]:focus {
 	border: 1px solid #385088 !important;
 }
@@ -279,7 +279,7 @@ select {
 	border-color: #385088 !important;
 	color: #000 !important;
 }
-.dijitInputField:hover, 
+.dijitInputField:hover,
 .dijitSelect:hover .dijitInputField {
 	border-color: #385088 !important;
 }
@@ -304,31 +304,31 @@ select {
 	color: #666;
 	box-shadow: none !important;
 }
-.bgabutton:hover, 
+.bgabutton:hover,
 .bgabutton:active {
 	background: #f0f0f0 !important;
 }
-.bgabutton_grey, 
+.bgabutton_grey,
 .bgabutton_gray {
 	background: #e1e1e1 !important;
 	border: 1px solid #dbdbdb !important;
 	color: #333;
 }
-.bgabutton_grey:hover, 
+.bgabutton_grey:hover,
 .bgabutton_grey:active,
-.bgabutton_gray:hover, 
+.bgabutton_gray:hover,
 .bgabutton_gray:active {
 	background: #d8d8d8 !important;
 }
-.bgabutton_darkgrey, 
+.bgabutton_darkgrey,
 .bgabutton_darkgray {
 	background: #888888 !important;
 	border: 1px solid #505050 !important;
 	color: #fff;
 }
-.bgabutton_darkgrey:hover, 
+.bgabutton_darkgrey:hover,
 .bgabutton_darkgrey:active,
-.bgabutton_darkgray:hover, 
+.bgabutton_darkgray:hover,
 .bgabutton_darkgray:active {
 	background: #787878 !important;
 	color: #fff;
@@ -338,7 +338,7 @@ select {
 	border: 1px solid #37578c !important;
 	color: #fff;
 }
-.bgabutton_blue:hover, 
+.bgabutton_blue:hover,
 .bgabutton_blue:active {
 	background: #4871b6 !important;
 	color: #fff;
@@ -357,20 +357,20 @@ select {
 #quitgroup:active,
 .bgabutton[id^="expected_refuse_"]:hover,
 .bgabutton[id^="expected_refuse_"]:active,
-.bgabutton_red:hover, 
+.bgabutton_red:hover,
 .bgabutton_red:active {
 	background: #c92727 !important;
 	color: #fff;
 }
-#access_game_normal, 
+#access_game_normal,
 .bgabutton_green {
 	background: #40a349 !important;
 	border: 1px solid #378c3f !important;
 	color: #fff;
 }
-#access_game_normal:hover, 
-#access_game_normal:active, 
-.bgabutton_green:hover, 
+#access_game_normal:hover,
+#access_game_normal:active,
+.bgabutton_green:hover,
 .bgabutton_green:active {
 	background: #31983a !important;
 	color: #fff;
@@ -430,16 +430,16 @@ pre {
 	height: 28px;
 }
 /* Mostly gets in the way */
-.roundedbox, 
-.roundedboxinner, 
+.roundedbox,
+.roundedboxinner,
 .roundedbox_main,
-.roundedbox_top, 
-.roundedbox_topmain, 
-.roundedbox_topleft, 
+.roundedbox_top,
+.roundedbox_topmain,
+.roundedbox_topleft,
 .roundedbox_topright,
-.roundedbox_bottom, 
-.roundedbox_bottommain, 
-.roundedbox_bottomleft, 
+.roundedbox_bottom,
+.roundedbox_bottommain,
+.roundedbox_bottomleft,
 .roundedbox_bottomright {
 	background-color: transparent !important;
 }
@@ -457,7 +457,7 @@ pre {
 	display: none !important;
 }
 /******************************************
-LOBBY PAGE - `gamelobby-module` 
+LOBBY PAGE - `gamelobby-module`
 *******************************************/
 .desktop_version #gamelobby-module .pageheader_menu {
 	display: block;
@@ -587,7 +587,7 @@ LOBBY PAGE - `gamelobby-module`
 	order: 4;
 }
 /******************************************
-TABLE PAGE  - `table-module` 
+TABLE PAGE  - `table-module`
 *******************************************/
 #table-module #create_new_table {
 	display: none !important;
@@ -597,7 +597,7 @@ TABLE PAGE  - `table-module`
 	border: 1px solid #378c3f !important;
 	color: #fff;
 }
-#table-module #startgame:hover, 
+#table-module #startgame:hover,
 #table-module #startgame:active {
 	background: #31983a !important;
 }
@@ -609,7 +609,7 @@ TABLE PAGE  - `table-module`
 	height: 60px;
 }
 /******************************************
-NEWS PAGE - `headlines-module` 
+NEWS PAGE - `headlines-module`
 *******************************************/
 #headlines-module .col-md-9 {
 	width: 100%;
@@ -625,7 +625,7 @@ NEWS PAGE - `headlines-module`
 	width: 100%;
 }
 /******************************************
-GAME LIST PAGE - `gamelist-module` 
+GAME LIST PAGE - `gamelist-module`
 *******************************************/
 .desktop_version #gamelist-module #gamelistpageheader .col-md-2 {
 	width: 20%;
@@ -658,7 +658,7 @@ GAME LIST PAGE - `gamelist-module`
 	width: 100%;
 }
 /******************************************
-GAME PAGE - `gamepanel-module` 
+GAME PAGE - `gamepanel-module`
 *******************************************/
 #gamepanel-module #create_new_table {
 	display: block !important;
@@ -666,7 +666,7 @@ GAME PAGE - `gamepanel-module`
 	border: 1px solid #378c3f !important;
 	color: #fff;
 }
-#gamepanel-module #create_new_table:hover, 
+#gamepanel-module #create_new_table:hover,
 #gamepanel-module #create_new_table:active {
 	background: #31983a !important;
 }
@@ -675,19 +675,19 @@ GAME PAGE - `gamepanel-module`
 	border: 1px solid #b20a0a !important;
 	color: #fff;
 }
-#gamepanel-module #add_to_fav:hover, 
+#gamepanel-module #add_to_fav:hover,
 #gamepanel-module #add_to_fav:active {
 	background: #c92727 !important;
 }
 /******************************************
-COMMUNITY PAGE - `community-module` 
+COMMUNITY PAGE - `community-module`
 *******************************************/
 #community-module .subtitle {
 	position: static;
 	top: auto;
 	bottom: auto;
 }
-#community-module #widget_findplayer, 
+#community-module #widget_findplayer,
 #community-module #widget_findgroup {
 	background: transparent;
 	padding-top: 40px;
@@ -707,20 +707,20 @@ COMMUNITY PAGE - `community-module`
 	margin: 10px 10px 0 120px;
 	width: auto;
 }
-#findplayer_popup, 
-#findgroup_popup, 
+#findplayer_popup,
+#findgroup_popup,
 #findfriend_popup {
 	background-color: #fff;
 	border: 1px solid #dbdbdb;
 }
 /******************************************
-GAMES IN PROGRESS - `gameinprogress-module` 
+GAMES IN PROGRESS - `gameinprogress-module`
 *******************************************/
 
 /******************************************
-TOURNAMENT LIST - `tournamentlist-module` 
+TOURNAMENT LIST - `tournamentlist-module`
 *******************************************/
-#tournamentlist-module #pageheader_menu > #lobby_invite_friend_zone, 
+#tournamentlist-module #pageheader_menu > #lobby_invite_friend_zone,
 #tournamentlist-module #pageheader_menu > div.clear {
 	display: none;
 }
@@ -753,7 +753,7 @@ TOURNAMENT LIST - `tournamentlist-module`
 #tournamentlist-module #filter_text_btn {
 	margin: 0;
 }
-.mobile_version #tournamentlist-module #filter_text_btn, 
+.mobile_version #tournamentlist-module #filter_text_btn,
 .desktop_version #tournamentlist-module #filter_text_btn {
 	display: inline-block !important;
 	width: 25%;
@@ -764,9 +764,9 @@ TOURNAMENT LIST - `tournamentlist-module`
 	width: 9%;
 }
 /******************************************
-PREFERENCES PAGE - `preferences-module` 
+PREFERENCES PAGE - `preferences-module`
 *******************************************/
-#langchoice, 
+#langchoice,
 #spokenlanguages {
 	width: 200px;
 }
@@ -774,7 +774,7 @@ PREFERENCES PAGE - `preferences-module`
 	background: #fff;
 }
 /******************************************
-CHAT SYSTEM - `chatbar` 
+CHAT SYSTEM - `chatbar`
 *******************************************/
 #chatbar .chatwindow .dropshadow {
 	display: none;
@@ -821,9 +821,9 @@ CHAT SYSTEM - `chatbar`
 	background: #eaf0f8;
 	border-bottom: 1px solid #dbdbdb;
 }
-#chatbar .chatwindowicon .fa-comment, 
+#chatbar .chatwindowicon .fa-comment,
 #chatbar .chatwindowicon .fa-comments,
-#chatbar .chatwindowlogstitle, 
+#chatbar .chatwindowlogstitle,
 #chatbar a.chatwindowtitlelink {
 	color: #385088;
 }
@@ -852,13 +852,13 @@ CHAT SYSTEM - `chatbar`
 #chatbar .chatwindowcollapse {
 	right: 27px;
 }
-#chatbar .chatwindowremove, 
+#chatbar .chatwindowremove,
 #chatbar .chatwindowremovec,
 #chatbar .chatwindowcollapse {
 	background: #385088;
 	border-radius: 10px;
 }
-#chatbar .chatwindowremove:hover, 
+#chatbar .chatwindowremove:hover,
 #chatbar .chatwindowremovec:hover,
 #chatbar .chatwindowcollapse:hover {
 	background: #199c97;
@@ -911,7 +911,7 @@ GAME PLAY PAGE - `game_interface`
 	display: block !important;
 	/*width: 100% !important;*/
 }
-.current_player_is_active #page-title .bgabutton_grey, 
+.current_player_is_active #page-title .bgabutton_grey,
 .current_player_is_active #page-title .bgabutton_gray {
 	border: 1px solid #bbb !important;
 }
@@ -964,7 +964,7 @@ GAME PLAY PAGE - `game_interface`
 	bottom: 0;
 	height: 30px;
 }
-.game_interface #seemorelogs > a::before, 
+.game_interface #seemorelogs > a::before,
 .game_interface #seemorelogs > a::after {
 	content: '▼';
 	position: absolute;
@@ -978,7 +978,7 @@ GAME PLAY PAGE - `game_interface`
 	left: auto;
 	right: 50px;
 }
-.game_interface #seemorelogs > a:hover::before, 
+.game_interface #seemorelogs > a:hover::before,
 .game_interface #seemorelogs > a:hover::after {
 	color: blue;
 }
@@ -1007,7 +1007,7 @@ GAME PLAY PAGE - `game_interface`
 .mobile_version .player_board_inner {
 	border-radius: 8px;
 }
-.player_board_inner .player_score, 
+.player_board_inner .player_score,
 .player_board_inner .player-name {
 	background-color: transparent !important;
 }
@@ -1023,8 +1023,8 @@ GAME PLAY PAGE - `game_interface`
 	background: #ddd;
 }
 
-/* 
-**DEFAULT COLOURS**: ffffff, 7b7b7b, ff0000, f07f16, ffa500, bdd002, 008000, 72c3b1, 0000ff, 982fff, e94190 
+/*
+**DEFAULT COLOURS**: ffffff, 7b7b7b, ff0000, f07f16, ffa500, bdd002, 008000, 72c3b1, 0000ff, 982fff, e94190
 **SUPPORTED**: 6 Nimmt, 7 Wonders, Potion Explosion, Stone Age, Rallyman GT, Kingdomino, Terra Mystica, Hanabi, Sushi Go!, Puerto Rico, Seasons, Takenoko, Jaipur, Incan Gold, The King's Guild, Race for the Galaxy, Roll for the Galaxy, Through the Ages, Red7, Tzolk'in, Tobago, For Sale, Tash-Kalar, Coup, Tokaido, Saboteur, Colt Express, Barbu, Dice Forge, Connect Four, Siam, Logger, Dragonheart, Mammalath, French Tarot, Sapians, La Granga, Caylus, Keyflower, Amyitis, Targi, Clans of Caledonia, Yahtzee, Love Letter, Lost Cities, Tock, Teotihuacan: City of Gods, Backgammon, Bubblee Pop, Lords of Xidit, Elfenland, Assyria, Khronos, Innovation, Lewis & Clark, Taluva, Battle Sheep, Quantum, Russian Railroads, Eminent Domain, Not Alone, Nippon, NXS, Legendary Inventors, GORami, Skat, Palace, Oh Hell!
 **MISSING**: Can't Stop, Carcassonne, Solo (spectating these games doesn't load)
 **UNKOWN**: Celestia
@@ -1040,9 +1040,9 @@ GAME PLAY PAGE - `game_interface`
 }
 /* Off-Black (Dark Blue) */
 .player_board_inner[id$="_262a2b"],
-.player_board_inner[id$="_262A2B"], 
+.player_board_inner[id$="_262A2B"],
 .player_board_inner[id$="_1a2126"],
-.player_board_inner[id$="_1A2126"], 
+.player_board_inner[id$="_1A2126"],
 .player_board_inner[id$="_3b3232"],
 .player_board_inner[id$="_3B3232"],
 .player_board_inner[id$="_1b1819"],
@@ -1055,7 +1055,7 @@ GAME PLAY PAGE - `game_interface`
 .player_board_inner[id$="_fff"],
 .player_board_inner[id$="_FFF"],
 .player_board_inner[id$="_ffffff"],
-.player_board_inner[id$="_FFFFFF"], 
+.player_board_inner[id$="_FFFFFF"],
 .player_board_inner[id$="_f0f9ff"],
 .player_board_inner[id$="_F0F9FF"] {
 	background-color: #fff;
@@ -1065,7 +1065,7 @@ GAME PLAY PAGE - `game_interface`
 .player_board_inner[id$="_fff"] .player-name > a,
 .player_board_inner[id$="_FFF"] .player-name > a,
 .player_board_inner[id$="_ffffff"] .player-name > a,
-.player_board_inner[id$="_FFFFFF"] .player-name > a, 
+.player_board_inner[id$="_FFFFFF"] .player-name > a,
 .player_board_inner[id$="_f0f9ff"] .player-name > a,
 .player_board_inner[id$="_F0F9FF"] .player-name > a {
 	text-shadow: -1px -1px 0 #666, 1px -1px 0 #666, -1px 1px 0 #666, 1px 1px 0 #666;
@@ -1081,7 +1081,7 @@ GAME PLAY PAGE - `game_interface`
 }
 /* Mid Grey */
 .player_board_inner[id$="_4a4e51"],
-.player_board_inner[id$="_4A4E51"], 
+.player_board_inner[id$="_4A4E51"],
 .player_board_inner[id$="_839099"] {
 	background-color: #f2f2f2;
 	border: 1px solid #4a4e51;
@@ -1090,7 +1090,7 @@ GAME PLAY PAGE - `game_interface`
 /* Dark Grey */
 .player_board_inner[id$="_7b7b7b"],
 .player_board_inner[id$="_7B7B7B"],
-.player_board_inner[id$="_666666"], 
+.player_board_inner[id$="_666666"],
 .player_board_inner[id$="_666"] {
 	background-color: #f2f2f2;
 	border: 1px solid #7b7b7b;
@@ -1100,7 +1100,7 @@ GAME PLAY PAGE - `game_interface`
 .player_board_inner[id$="_ff0000"],
 .player_board_inner[id$="_FF0000"],
 .player_board_inner[id$="_ea3a3c"],
-.player_board_inner[id$="_EA3A3C"], 
+.player_board_inner[id$="_EA3A3C"],
 .player_board_inner[id$="_d90505"],
 .player_board_inner[id$="_D90505"] {
 	background-color: #fbd1d1;
@@ -1109,12 +1109,12 @@ GAME PLAY PAGE - `game_interface`
 }
 /* Dark Red */
 .player_board_inner[id$="_b01e21"],
-.player_board_inner[id$="_B01E21"], 
-.player_board_inner[id$="_971923"], 
+.player_board_inner[id$="_B01E21"],
+.player_board_inner[id$="_971923"],
 .player_board_inner[id$="_dc2515"],
-.player_board_inner[id$="_DC2515"], 
+.player_board_inner[id$="_DC2515"],
 .player_board_inner[id$="_a03239"],
-.player_board_inner[id$="_A03239"], 
+.player_board_inner[id$="_A03239"],
 .player_board_inner[id$="_97231c"],
 .player_board_inner[id$="_97231C"] {
 	background-color: #fedbdc;
@@ -1122,20 +1122,20 @@ GAME PLAY PAGE - `game_interface`
 	border-left: 5px solid #b01e21 !important;
 }
 /* Brown */
-.player_board_inner[id$="_773300"], 
-.player_board_inner[id$="_70421d"], 
-.player_board_inner[id$="_70421D"], 
+.player_board_inner[id$="_773300"],
+.player_board_inner[id$="_70421d"],
+.player_board_inner[id$="_70421D"],
 .player_board_inner[id$="_663300"] {
 	background-color: #ffe6d4;
 	border: 1px solid #773300;
 	border-left: 5px solid #773300 !important;
 }
 /* Light Brown */
-.player_board_inner[id$="_b98a46"], 
-.player_board_inner[id$="_B98A46"], 
-.player_board_inner[id$="_d6b156"], 
+.player_board_inner[id$="_b98a46"],
+.player_board_inner[id$="_B98A46"],
+.player_board_inner[id$="_d6b156"],
 .player_board_inner[id$="_D6B156"],
-.player_board_inner[id$="_aa7903"], 
+.player_board_inner[id$="_aa7903"],
 .player_board_inner[id$="_AA7903"] {
 	background-color: #ffe6d4;
 	border: 1px solid #b98a46;
@@ -1147,11 +1147,11 @@ GAME PLAY PAGE - `game_interface`
 .player_board_inner[id$="_d56f12"],
 .player_board_inner[id$="_D56F12"],
 .player_board_inner[id$="_e26b27"],
-.player_board_inner[id$="_E26B27"], 
+.player_board_inner[id$="_E26B27"],
 .player_board_inner[id$="_ff8000"],
 .player_board_inner[id$="_ff8000"],
 .player_board_inner[id$="_df8f0b"],
-.player_board_inner[id$="_DF8F0B"], 
+.player_board_inner[id$="_DF8F0B"],
 .player_board_inner[id$="_f3a000"],
 .player_board_inner[id$="_F3A000"] {
 	background-color: #fff3cd;
@@ -1160,13 +1160,13 @@ GAME PLAY PAGE - `game_interface`
 }
 /* Light Orange */
 .player_board_inner[id$="_ffa500"],
-.player_board_inner[id$="_FFA500"], 
+.player_board_inner[id$="_FFA500"],
 .player_board_inner[id$="_f0a117"],
-.player_board_inner[id$="_F0A117"], 
+.player_board_inner[id$="_F0A117"],
 .player_board_inner[id$="_f69822"],
-.player_board_inner[id$="_F69822"], 
+.player_board_inner[id$="_F69822"],
 .player_board_inner[id$="_f9ae18"],
-.player_board_inner[id$="_F9AE18"], 
+.player_board_inner[id$="_F9AE18"],
 .player_board_inner[id$="_a76e1f"],
 .player_board_inner[id$="_A76E1F"],
 .player_board_inner[id$="_fdb515"],
@@ -1177,7 +1177,7 @@ GAME PLAY PAGE - `game_interface`
 }
 /* Dark Yellow */
 .player_board_inner[id$="_cccc00"],
-.player_board_inner[id$="_CCCC00"], 
+.player_board_inner[id$="_CCCC00"],
 .player_board_inner[id$="_bca700"],
 .player_board_inner[id$="_BCA700"] {
 	background-color: #fffdda;
@@ -1188,7 +1188,7 @@ GAME PLAY PAGE - `game_interface`
 .player_board_inner[id$="_ffff00"],
 .player_board_inner[id$="_FFFF00"],
 .player_board_inner[id$="_f4eb22"],
-.player_board_inner[id$="_F4EB22"], 
+.player_board_inner[id$="_F4EB22"],
 .player_board_inner[id$="_fffa77"],
 .player_board_inner[id$="_FFFA77"] {
 	background-color: #fffdda;
@@ -1196,49 +1196,49 @@ GAME PLAY PAGE - `game_interface`
 	border-left: 5px solid #f4eb22 !important;
 }
 .player_board_inner[id$="_ffff00"] .player-name > a,
-.player_board_inner[id$="_FFFF00"] .player-name > a, 
+.player_board_inner[id$="_FFFF00"] .player-name > a,
 .player_board_inner[id$="_f4eb22"] .player-name > a,
-.player_board_inner[id$="_F4EB22"] .player-name > a, 
+.player_board_inner[id$="_F4EB22"] .player-name > a,
 .player_board_inner[id$="_fffa77"] .player-name > a,
 .player_board_inner[id$="_FFFA77"] .player-name > a {
 	text-shadow: -1px -1px 0 #666, 1px -1px 0 #666, -1px 1px 0 #666, 1px 1px 0 #666;
 }
 /* Lurid Green */
-.player_board_inner[id$="_00d27f"], 
+.player_board_inner[id$="_00d27f"],
 .player_board_inner[id$="_00D27F"],
-.player_board_inner[id$="_00ff00"], 
+.player_board_inner[id$="_00ff00"],
 .player_board_inner[id$="_00FF00"] {
 	background-color: #e4fcf3;
 	border: 1px solid #00d27f;
 	border-left: 5px solid #00d27f !important;
 }
 /* Light Green */
-.player_board_inner[id$="_bdd002"], 
-.player_board_inner[id$="_BDD002"], 
-.player_board_inner[id$="_8ec459"], 
+.player_board_inner[id$="_bdd002"],
+.player_board_inner[id$="_BDD002"],
+.player_board_inner[id$="_8ec459"],
 .player_board_inner[id$="_8EC459"] {
 	background-color: #fcffe4;
 	border: 1px solid #bdd002;
 	border-left: 5px solid #bdd002 !important;
 }
 /* Dark Green */
-.player_board_inner[id$="_008000"], 
-.player_board_inner[id$="_008800"], 
-.player_board_inner[id$="_236734"], 
-.player_board_inner[id$="_54a94a"], 
-.player_board_inner[id$="_54A94A"], 
-.player_board_inner[id$="_278139"], 
-.player_board_inner[id$="_278139"], 
-.player_board_inner[id$="_39552f"], 
-.player_board_inner[id$="_39552F"], 
-.player_board_inner[id$="_4a823a"], 
-.player_board_inner[id$="_4A823A"], 
-.player_board_inner[id$="_009e1d"], 
-.player_board_inner[id$="_009E1D"], 
-.player_board_inner[id$="_007a26"], 
-.player_board_inner[id$="_007A26"], 
-.player_board_inner[id$="_439627"], 
-.player_board_inner[id$="_25b000"], 
+.player_board_inner[id$="_008000"],
+.player_board_inner[id$="_008800"],
+.player_board_inner[id$="_236734"],
+.player_board_inner[id$="_54a94a"],
+.player_board_inner[id$="_54A94A"],
+.player_board_inner[id$="_278139"],
+.player_board_inner[id$="_278139"],
+.player_board_inner[id$="_39552f"],
+.player_board_inner[id$="_39552F"],
+.player_board_inner[id$="_4a823a"],
+.player_board_inner[id$="_4A823A"],
+.player_board_inner[id$="_009e1d"],
+.player_board_inner[id$="_009E1D"],
+.player_board_inner[id$="_007a26"],
+.player_board_inner[id$="_007A26"],
+.player_board_inner[id$="_439627"],
+.player_board_inner[id$="_25b000"],
 .player_board_inner[id$="_25B000"] {
 	background-color: #eaffea;
 	border: 1px solid #008000;
@@ -1258,23 +1258,23 @@ GAME PLAY PAGE - `game_interface`
 	border-left: 5px solid #666600 !important;
 }
 /* Teal */
-.player_board_inner[id$="_2d8775"], 
-.player_board_inner[id$="_2D8775"], 
-.player_board_inner[id$="_41bdbf"], 
+.player_board_inner[id$="_2d8775"],
+.player_board_inner[id$="_2D8775"],
+.player_board_inner[id$="_41bdbf"],
 .player_board_inner[id$="_41BDBF"] {
 	background-color: #ddfff8;
 	border: 1px solid #2d8775;
 	border-left: 5px solid #2d8775 !important;
 }
 /* Turquoise */
-.player_board_inner[id$="_72c3b1"], 
+.player_board_inner[id$="_72c3b1"],
 .player_board_inner[id$="_72C3B1"] {
 	background-color: #dcfff7;
 	border: 1px solid #72c3b1;
 	border-left: 5px solid #72c3b1 !important;
 }
 /* Duck Egg Blue */
-.player_board_inner[id$="_5d8688"], 
+.player_board_inner[id$="_5d8688"],
 .player_board_inner[id$="_5D8688"] {
 	background-color: #eefeff;
 	border: 1px solid #5d8688;
@@ -1289,16 +1289,16 @@ GAME PLAY PAGE - `game_interface`
 }
 /* Light Blue */
 .player_board_inner[id$="_63a9dc"],
-.player_board_inner[id$="_63A9DC"], 
+.player_board_inner[id$="_63A9DC"],
 .player_board_inner[id$="_5f95ac"],
-.player_board_inner[id$="_5F95AC"], 
-.player_board_inner[id$="_6699ff"], 
-.player_board_inner[id$="_6699FF"], 
-.player_board_inner[id$="_6092b6"], 
-.player_board_inner[id$="_6092B6"], 
-.player_board_inner[id$="_5b7eb4"], 
-.player_board_inner[id$="_5B7EB4"], 
-.player_board_inner[id$="_00aedb"], 
+.player_board_inner[id$="_5F95AC"],
+.player_board_inner[id$="_6699ff"],
+.player_board_inner[id$="_6699FF"],
+.player_board_inner[id$="_6092b6"],
+.player_board_inner[id$="_6092B6"],
+.player_board_inner[id$="_5b7eb4"],
+.player_board_inner[id$="_5B7EB4"],
+.player_board_inner[id$="_00aedb"],
 .player_board_inner[id$="_00AEDB"] {
 	background-color: #dcf0ff;
 	border: 1px solid #63a9dc;
@@ -1306,12 +1306,12 @@ GAME PLAY PAGE - `game_interface`
 }
 /* Bright Blue */
 .player_board_inner[id$="_0000ff"],
-.player_board_inner[id$="_0000FF"], 
+.player_board_inner[id$="_0000FF"],
 .player_board_inner[id$="_442df0"],
-.player_board_inner[id$="_442DF0"], 
+.player_board_inner[id$="_442DF0"],
 .player_board_inner[id$="_0011FF"],
-.player_board_inner[id$="_0011ff"], 
-.player_board_inner[id$="_0505d9"], 
+.player_board_inner[id$="_0011ff"],
+.player_board_inner[id$="_0505d9"],
 .player_board_inner[id$="_0505D9"],
 .player_board_inner[id$="_23408e"],
 .player_board_inner[id$="_23408E"] {
@@ -1321,12 +1321,12 @@ GAME PLAY PAGE - `game_interface`
 }
 /* Dark Blue */
 .player_board_inner[id$="_255ba1"],
-.player_board_inner[id$="_255BA1"], 
-.player_board_inner[id$="_27418b"], 
-.player_board_inner[id$="_27418B"], 
-.player_board_inner[id$="_2c5e8e"], 
-.player_board_inner[id$="_2C5E8E"], 
-.player_board_inner[id$="_004fbf"], 
+.player_board_inner[id$="_255BA1"],
+.player_board_inner[id$="_27418b"],
+.player_board_inner[id$="_27418B"],
+.player_board_inner[id$="_2c5e8e"],
+.player_board_inner[id$="_2C5E8E"],
+.player_board_inner[id$="_004fbf"],
 .player_board_inner[id$="_004FBF"] {
 	background-color: #deecff;
 	border: 1px solid #255ba1;
@@ -1334,11 +1334,11 @@ GAME PLAY PAGE - `game_interface`
 }
 /* Deep Purple */
 .player_board_inner[id$="_4c3084"],
-.player_board_inner[id$="_4C3084"], 
+.player_board_inner[id$="_4C3084"],
 .player_board_inner[id$="_6c3161"],
-.player_board_inner[id$="_6C3161"], 
+.player_board_inner[id$="_6C3161"],
 .player_board_inner[id$="_734c73"],
-.player_board_inner[id$="_734C73"], 
+.player_board_inner[id$="_734C73"],
 .player_board_inner[id$="_6d416f"],
 .player_board_inner[id$="_6D416F"] {
 	background-color: #ece3fe;
@@ -1349,11 +1349,11 @@ GAME PLAY PAGE - `game_interface`
 .player_board_inner[id$="_982fff"],
 .player_board_inner[id$="_982FFF"],
 .player_board_inner[id$="_9900ff"],
-.player_board_inner[id$="_9900FF"], 
+.player_board_inner[id$="_9900FF"],
 .player_board_inner[id$="_aa00ff"],
-.player_board_inner[id$="_AA00FF"], 
+.player_board_inner[id$="_AA00FF"],
 .player_board_inner[id$="_4c1b5b"],
-.player_board_inner[id$="_4C1B5B"], 
+.player_board_inner[id$="_4C1B5B"],
 .player_board_inner[id$="_c800ff"],
 .player_board_inner[id$="_C800FF"] {
 	background-color: #efe0fd;
@@ -1376,7 +1376,7 @@ GAME PLAY PAGE - `game_interface`
 }
 /* Salmon */
 .player_board_inner[id$="_e94190"],
-.player_board_inner[id$="_E94190"], 
+.player_board_inner[id$="_E94190"],
 .player_board_inner[id$="_e15376"],
 .player_board_inner[id$="_E15376"] {
 	background-color: #fdd8ea;
