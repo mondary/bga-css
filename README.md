@@ -7,7 +7,7 @@ The BGA site is pretty old school and sometimes just unclear! This is an attempt
 1. [Log in to BGA](https://en.boardgamearena.com/account?redirect=/preferences?section=advanced) using that link
 	1. If you weren't taken straight to a page with a textarea input on it...
 	1. Click the icon in the top right -> "Preferences" -> "Advanced" tab
-1. In another window, open and copy [this custom CSS code](https://raw.githubusercontent.com/paul-norman/bga-css/master/bga-light.css)
+1. In another window, open and copy the custom CSS code
 1. Back in the first window paste the entire contents of that file into the text box and press "Save"
 1. It would be nice if that was all you had to do, but BGA has a bug with this system. You need to follow this path to actually enable the code:
 	1. Scroll down past the mess of CSS code that will now be at the top of the screen
@@ -29,7 +29,7 @@ Le site de BGA est assez vieux jeu et parfois pas très clair ! C'est une tentat
 1. [Connectez-vous à BGA] (https://en.boardgamearena.com/account?redirect=/preferences?section=advanced) en utilisant ce lien.
 	1. Si vous n'avez pas été amené directement sur une page avec une zone de texte...
 	1. Cliquez sur l'icône en haut à droite -> "Préférences" -> onglet "Avancé".
-1. Dans une autre fenêtre, ouvrez et copiez [ce code CSS personnalisé] (https://raw.githubusercontent.com/paul-norman/bga-css/master/bga-light.css).
+1. Dans une autre fenêtre, ouvrez et copiez le code CSS personnalisé
 1. De retour dans la première fenêtre, collez l'intégralité du contenu de ce fichier dans la zone de texte et appuyez sur "Enregistrer".
 1. Ce serait bien si c'était tout ce que vous aviez à faire, mais BGA a un bug avec ce système. Vous devez suivre ce chemin pour activer réellement le code :
 	1. Faites défiler l'écran vers le bas et dépassez le code CSS qui se trouve maintenant en haut de l'écran.
